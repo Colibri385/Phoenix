@@ -19,12 +19,13 @@ html {
 .imgage {
     text-align: center ;
 }
+
 .navbar {
     background-color: #464545;
     
 }
 .navbar ul {  
-    margin: 0 auto; 
+    
 } 
 
 /* zoom image de l'accueil */ 
