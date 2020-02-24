@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    width: 100%
+}
+
+/**********  NAVBAR *********/
+
+/* logo Accueil */ 
+
+#logoMenu {
+    width: 50px ;
+    height: 50px;
+    
+}
+
+.imgage {
+    text-align: center ;
+}
+.navbar {
+    background-color: #464545;
+    
+}
+.navbar ul {  
+    margin: 0 auto; 
+} 
+
+/* zoom image de l'accueil */ 
+.image {
+    
+    transform: scale(0.5);
+    animation: dezoom 5s linear forwards
+}
+
+.navbar-nav li a {
+    color: white;
+}
+
+section {
+    text-align: center;
+
+}
+
+
+@keyframes dezoom {
+    from {
+        transform: scale(5);
+    }
+
+    to {
+        transform: scale(0.5);
+    }
+}
+
+/* section entreprise */
+
+#entreprise {
+background-color: rgb(161, 125, 125);
+}
+
+#entreprise2 {
+text-align: center;
+}
+
+.image2 {
+   width: 500px;
+   height:800px ;
+}
+
+
+
