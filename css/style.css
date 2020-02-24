@@ -12,9 +12,8 @@ html {
 /* logo Accueil */ 
 
 #logoMenu {
-    width: 50px ;
-    height: 50px;
-    
+    width: 90px ;
+    height: 70px;
 }
 
 .imgage {
@@ -32,7 +31,7 @@ html {
 .image {
     
     transform: scale(0.5);
-    animation: dezoom 5s linear forwards
+    animation: dezoom 2s linear forwards
 }
 
 .navbar-nav li a {
@@ -40,8 +39,7 @@ html {
 }
 
 section {
-    text-align: center;
-
+    text-align: center; 
 }
 
 
