@@ -46,7 +46,7 @@ html {
     padding-top: 15px;
     width: 100%;
     height: 100vh;
-    background: url(../images/fond\ accueil.jpg);
+    background: url(../images/fond-page-accueil.jpg);
     background-position: center;
     overflow: hidden;
 
@@ -298,22 +298,23 @@ footer ul li {
     font-size: 22px;
 }
 
-/* CONTACT */
+/* CONTACT  */
 
 .contact {
     background-color: #000;
     color: #fff;
-    height: 87vh;
+    height: auto;
     font-family: adobe-garamond-pro, serif;
     text-transform: uppercase;
-    margin-top: 4%;
+    margin-top: 95px;
 }
 
 .contact h2{
     font-weight: 700;
     text-align: center;
     text-transform: uppercase;
-    margin-top: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 .contact h2:after{
@@ -333,8 +334,10 @@ footer ul li {
 
 }
 
+/* FORMULAIRE */
+
 .coordonnees{
-    padding: 10px 0 10px 60px;
+    padding: 10px 0 30px;
 }
 
 .coordonnees ul li {
@@ -353,7 +356,7 @@ footer ul li {
 
 .coordonnees i{
     color: #a9904a;
-    padding: 0 20px;
+    padding: 0 10px;
     float: left;
     font-size: 20px;
 }
@@ -416,3 +419,76 @@ footer ul li {
     background: #c2986e;
     border-color: #fff;
 }
+
+@media screen and (max-width: 992px) {
+
+    /* ACCUEIL */
+
+
+  .accueil .image {
+       margin-left: -50px;
+    }
+
+/* MONTRE */
+
+    #montre .cadran {
+        max-width: 30%;
+        margin: 40px 0 0 -20px;
+    }
+
+    #montre .col-lg-6 {
+
+    }
+
+    #montre .watch {
+        width: 90%;
+    }
+
+    #montre .much {
+        display: none;
+    }
+
+    #montre .text-base {
+       opacity: 0;
+     }
+
+     .text-hover{
+        display:inherit;
+        position:absolute;
+        top: -10px;
+        left: 0;
+        bottom: 0;
+        right: 0;
+     }
+
+     #montre .limit {
+        max-width: 320px;
+        height: 30px;
+        border: 1px solid white;
+        position: relative;
+        background: black;
+    }
+
+    #montre .galery {
+        width: 300px;
+        margin: 0 auto;
+    }
+
+    /* MODAL */
+
+    .modal {
+        width: 350px;
+        height: auto;
+        margin: 0 auto !important;
+    }
+
+
+    /* ENTREPRISE */
+
+    #entreprise2 {
+        margin-right: 60px;
+    }
+
+}
+
+
