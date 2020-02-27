@@ -21,6 +21,7 @@ html {
     background-color: #000000;
 }
 
+
 .collapse {
     margin-right: 160px;
 }
@@ -95,6 +96,13 @@ section {
 
 .titreEntreprise {
  padding-top:30px ;
+ letter-spacing: 3px;
+ text-transform: uppercase;
+ word-spacing: 4px;
+}
+
+.texteEntreprise {
+ text-align: justify;
 }
 
 #entreprise .row {
@@ -122,27 +130,29 @@ section {
 }
 
 #montre .cadran {
-    margin-left: -250px;
+    margin-left: -450px;
     margin-top: 14%;
 }
 
 #montre p {
-    max-width: 650px;
+    max-width: 850px;
     color: white;
 }
 
 #montre h2 {
     text-transform: uppercase;
     font-size: 35px;
-    font-weight: 700;
+    letter-spacing: 4px;
     color: white;
+    word-spacing: 4px;
 }
 
 #montre .limit {
-    max-width: 400px;
-    border: 1px solid white;
+    max-width: 500px;
+    border: 1px solid #c89f65;
     position: relative;
     background: black;
+    padding: 8px 22px;
 }
 
 #montre .limit span {
@@ -150,7 +160,7 @@ section {
     font-size: 18px;
     text-transform: uppercase;
     margin: 10px;
-    color: white;
+    color: #c89f65;
     
 }
 .text-base {
@@ -168,14 +178,14 @@ section {
  #montre .limit:hover .text-hover{
     display:inherit;
     position:absolute;
-    top: -10px;
+    top: 0;
     left: 0;
     bottom: 0;
     right: 0;
  }
 
 #montre .galery {
-    width: 360px;
+    width: 190px;
     background: white;
     color: black;
     border: 0.5px solid rgba(0, 0, 0, 0.37);
@@ -185,6 +195,7 @@ section {
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.534);
     transition: all 0.3s ease-in;
     outline: none;
+    padding: 2px 22px;
 }
 
 #montre .galery:hover {
@@ -199,17 +210,28 @@ section {
 /* section technologie */
 
 .technologie{
-    height: 100vh;
+    height: 100%;  
+}
+
+#texteTechno {
+    font-family: adobe-garamond-pro, serif;
+}
+
+.texteMecanisme {
+    padding-top: 100px;
+    font-family: adobe-garamond-pro, serif;
 }
 
 .technologie h2{
-    font-family: 'adobe-garamond-pro', serif;
-    font-weight: 700;
+    font-family: adobe-garamond-pro, serif;
+    padding-top:30px ;
+    padding-bottom: 15px;
+    letter-spacing: 3px;
     text-transform: uppercase;
-    text-align: center;
-    margin: 30px;
+    word-spacing: 4px;
 }
 
+/*
 .technologie h2:after{
     display: block;
     height: 2px;
@@ -217,9 +239,9 @@ section {
     width: auto;
     content: " ";
 }
-
+*/
 .technologie h3{
-    font-family: 'adobe-garamond-pro', serif;
+    font-family: adobe-garamond-pro, serif;
     font-weight: 700;
     margin-top: 30px;
     margin-left: 40px;
@@ -276,26 +298,41 @@ footer {
     color: white;
     background: #000000;
     font-family: adobe-garamond-pro, serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     font-size: 14px;
     height: 5vh;
+    padding: 12px 0 5px;
+
+}
+
+/* Mentions légales */
+.copyright {
+text-align: center;
+display: block;
+float: left;
 }
 
 footer a {
     color: #fff;
     text-decoration: underline;
+    
 }
 
 footer a:hover {
-    color: #fff;
+    color: rgb(223, 199, 67);
 }
 
+ul {
+ text-align: center;
+}
+
+/* icones resaux sociaux*/
 footer ul li {
-    list-style: none;
-    margin-right: 20px;
+    display: block;
+    float: left;
+   
     font-size: 22px;
+    list-style: none;
+    padding-left: 3%;
 }
 
 /* CONTACT  */
@@ -310,28 +347,19 @@ footer ul li {
 }
 
 .contact h2{
-    font-weight: 700;
-    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
     text-transform: uppercase;
-    margin-top: 40px;
-    margin-bottom: 40px;
-}
-
-.contact h2:after{
-    display: block;
-    height: 2px;
-    background-color: #a9904a;
-    width: 300px;
-    content: " ";
-    margin: 0 auto;
-    margin-top: 10px;
+    font-size: 35px;
+    letter-spacing: 4px;
+    color: white;
+    word-spacing: 4px;
 }
 
 .contact h3{
     font-weight: 500;
     margin-top: 30px;
     padding: 20px 0;
-
 }
 
 /* FORMULAIRE */
@@ -436,9 +464,9 @@ footer ul li {
         margin: 40px 0 0 -20px;
     }
 
-    #montre .col-lg-6 {
+   /* #montre .col-lg-6 {
 
-    }
+    } */
 
     #montre .watch {
         width: 90%;
@@ -455,7 +483,7 @@ footer ul li {
      .text-hover{
         display:inherit;
         position:absolute;
-        top: -10px;
+        top: -5px;
         left: 0;
         bottom: 0;
         right: 0;
