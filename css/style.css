@@ -242,7 +242,7 @@ section {
 
 .chronographe{
     display: block;
-    margin: 0 auto;
+    margin: 0 auto 70px;
 }
 
 .info-technique{
@@ -383,16 +383,18 @@ footer ul li {
     display: inline;
     text-align: center;
     list-style: none;
+    outline: none !important;
 }
 
 .social .btn{
     color: #a9904a;
     padding: 20px;
     font-size: 50px;
+    outline: none !important;
 }
 
 .social .btn:hover{
-    color: #c2986e;
+    color: #fff;
 }
 
 .boutique img{
@@ -502,6 +504,11 @@ footer ul li {
 
     #entreprise2 {
         margin-right: 60px;
+    }
+
+    .technologie .chronographe{
+        display: block;
+        margin: 0 auto;
     }
 
 }
