@@ -50,6 +50,7 @@ html {
     background: url(../images/fond-page-accueil.jpg);
     background-position: center;
     overflow: hidden;
+    color: transparent;
 
 }
 
