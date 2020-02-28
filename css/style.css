@@ -25,6 +25,10 @@ html {
     margin-right: 160px;
 }
 
+.collapse ul a {
+    text-align: left;
+}
+
 .navbar-nav li a {
     color: white !important;
     font-family: adobe-garamond-pro, serif;
@@ -76,6 +80,7 @@ section {
 /* Section entreprise */
 
 #entreprise {
+    justify-items: left;
     background: white;
     font-family: adobe-garamond-pro, serif;
     background: url(../images/page-histoire.jpg);
@@ -157,14 +162,17 @@ section {
 }
 .text-base {
     opacity: 1;
+   
  }
 
  .text-hover{
     display:none;
+
  }
 
  #montre .limit:hover .text-base{
     opacity:0;
+
  }
 
  #montre .limit:hover .text-hover{
@@ -174,6 +182,7 @@ section {
     left: 0;
     bottom: 0;
     right: 0;
+   
  }
 
 #montre .galery {
