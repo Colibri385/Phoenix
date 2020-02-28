@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<!-- Balisage des microdonnées ajouté par l'outil d'aide au balisage de données structurées de Google -->
 <html lang="fr">
 
 <head>
@@ -72,8 +73,10 @@
 
   <!-- ***** Navbar ****** -->
 
+  <span itemscope itemtype="http://schema.org/Product">
+
   <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
-    <a class="navbar-brand" href="#accueil"> <img id="logoMenu" src="images/logo-blanc.png" alt="Logo entreprise"></a>
+    <a itemprop="image" class="navbar-brand" href="#accueil"> <img id="logoMenu" src="images/logo-blanc.png" alt="Logo entreprise"></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
       aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -115,7 +118,7 @@
         <div class="col-lg-8" id="entreprise2">
           <h2 class="titreEntreprise">Notre histoire</h2>
           <p class="titre2Entreprise"> Le vie, le temps, l'éternité</p>
-          <p class="texteEntreprise"> Jean-François de Lorem fondateur de la marque Phoenix, créé cette année un atelier d'horlogerie de luxe
+          <p class="texteEntreprise"> Jean-François de Lorem fondateur de la marque Phoenix, créé cette année un atelier d'<span itemprop="name">horlogerie de luxe</span>
             dirigé par un maître horloger de renom. L'entreprise bénéficie donc d'un savoir faire basé sur de nombreuses années d'exépriences.
             Il allie à la fois l'exigence et la fiabilité. Le choix des alliages à base de métaux précieux sont associés pour en modifier les 
             couleurs et les caractéristiques. Les mecanismes sont assemblés et mis en valeur avec des pierres précieuses.
@@ -197,7 +200,7 @@
           <div class="info-technique">
             <div class="texteMecanisme">
               <p><strong>Mouvement&nbsp;: </strong><span>Haute précision</span></p>
-              <p><strong>Couronne&nbsp;: </strong><span> Or 24K et rubis</span></p>
+              <p><strong>Couronne&nbsp;: </strong><span itemprop="offers" itemscope itemtype="http://schema.org/Offer"> Or <span itemprop="price">24K</span> et rubis</span></p>
               <p><strong>Structure&nbsp;: </strong><span>Résistance thermique</span></p>
               <p><strong>Monture&nbsp;: </strong><span>Antichocs</span></p>
               <p><strong>Masselotte&nbsp;: </strong><span>Titane Grade 5</span></p>
@@ -206,7 +209,7 @@
         </div>
       </div>
     </div>
-  </section>
+  </section></span>
 
   <!-- ***** FOOTER **** -->
   <footer>
