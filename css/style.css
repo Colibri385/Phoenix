@@ -50,7 +50,6 @@ html {
     background-position: center;
     overflow: hidden;
     color: transparent;
-
 }
 
 .image {
@@ -199,7 +198,6 @@ section {
     box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.541);
 }
 
-
 /* section technologie */
 
 .technologie{
@@ -298,6 +296,7 @@ ul {
 }
 
 /*********** icones resaux sociaux*************/
+
 footer ul li {
     display: block;
     float: left;
@@ -347,8 +346,6 @@ footer ul li {
     text-transform: uppercase;
     margin-bottom: 10px;
 }
-
-/*************** FORMULAIRE ************/
 
 .coordonnees{
     padding: 10px 0 30px;
@@ -447,8 +444,7 @@ footer ul li {
 
 @media screen and (max-width: 992px) {
 
-    /* ACCUEIL */
-
+    /* @ MEDIA ACCUEIL */
 
   .accueil .image {
        margin-left: -50px;
@@ -489,7 +485,6 @@ footer ul li {
      #montre .limit {
         max-width: 320px;
         height: 30px;
-        border: 1px solid white;
         position: relative;
         background: black;
     }
@@ -528,7 +523,7 @@ footer {
     background: #000000;
     font-family: adobe-garamond-pro, serif;
     font-size: 14px;
-    height: 5vh;
+    height: 5%;
     padding: 12px 0 5px;
 }
 

@@ -23,7 +23,6 @@
 
 <body>
 
-
     <!-- Navbar -->
 
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
@@ -63,7 +62,7 @@
                 <div class="col-md-6">
                     <div class="coordonnees">
                         <h3>PHOENIX PARIS</h3>
-                        <p><i class="fas fa-mobile-alt"></i>   Numéro : +33 1 00 00 00 00</p>
+                        <p><i class="fas fa-mobile-alt"></i> Numéro : +33 1 00 00 00 00</p>
                         <p><i class="fas fa-map-marker-alt"></i> Adresse : <a href="#" data-toggle="modal"
                                 data-target="#map"> 362 Rue Saint-Honoré, 75 001 PARIS</a></p>
                         <p><i class="fas fa-at"></i>E-mail : phoenixarinfo@gmail.com</p>
@@ -72,9 +71,12 @@
                     <!-- icons social -->
                     <div class="social">
                         <ul>
-                            <li><a href="https://facebook.com/phoenixarinfo/" target="_blank" class="btn"><i class="fab fa-facebook-square"></i></a></li>
-                            <li><a href="https://twitter.com/Phoenix82337484/" target="_blank" class="btn"><i class="fab fa-twitter-square"></i></a></li>
-                            <li><a href="https://www.instagram.com/phoenixarinfo/" target="_blank" class="btn"><i class="fab fa-instagram-square"></i></a></li>
+                            <li><a href="https://facebook.com/phoenixarinfo/" rel="noreferrer" target="_blank" class="btn"><i
+                                        class="fab fa-facebook-square"></i></a></li>
+                            <li><a href="https://twitter.com/Phoenix82337484/" rel="noreferrer" target="_blank" class="btn"><i
+                                        class="fab fa-twitter-square"></i></a></li>
+                            <li><a href="https://www.instagram.com/phoenixarinfo/" rel="noreferrer" target="_blank" class="btn"><i
+                                        class="fab fa-instagram-square"></i></a></li>
                         </ul>
                     </div>
                 </div>
@@ -94,83 +96,81 @@
             </div>
 
             <!-- formulaire -->
-            <div class="row">
+            <form>
+                <div class="row">
 
-                <div class="col-md-6">
-                    <label for="firstname">Prénom *</label>
-                    <input id="firstname" type="text" name="firstname" class="form-control" placeholder="Votre Prénom"
-                        rows="2">
-                    <p class="comments"></p>
-                </div>
+                    <div class="col-md-6">
+                        <label for="firstname">Prénom *</label>
+                        <input id="firstname" type="text" name="firstname" class="form-control" placeholder="Votre Prénom"
+                            rows="2">
+                        <p class="comments"></p>
+                    </div>
 
-                <div class="col-md-6">
-                    <label for="name">Nom *</label>
-                    <input id="name" type="text" name="name" class="form-control" placeholder="Votre Nom" rows="2">
-                    <p class="comments"></p>
-                </div>
+                    <div class="col-md-6">
+                        <label for="name">Nom *</label>
+                        <input id="name" type="text" name="name" class="form-control" placeholder="Votre Nom" rows="2">
+                        <p class="comments"></p>
+                    </div>
 
-                <div class="col-md-6">
-                    <label for="email">Email *</label>
-                    <input id="email" type="text" name="email" class="form-control" placeholder="Votre Email" rows="2">
-                    <p class="comments"></p>
-                </div>
+                    <div class="col-md-6">
+                        <label for="email">Email *</label>
+                        <input id="email" type="text" name="email" class="form-control" placeholder="Votre Email" rows="2">
+                        <p class="comments"></p>
+                    </div>
 
-                <div class="col-md-6">
-                    <label for="phone">Téléphone *</label>
-                    <input id="phone" type="tel" name="phone" class="form-control" placeholder="Votre Téléphone"
-                        rows="2">
-                    <p class="comments"></p>
-                </div>
+                    <div class="col-md-6">
+                        <label for="phone">Téléphone *</label>
+                        <input id="phone" type="tel" name="phone" class="form-control" placeholder="Votre Téléphone"
+                            rows="2">
+                        <p class="comments"></p>
+                    </div>
 
-                <div class="col-md-12">
-                    <label for="message">Message *</label>
-                    <textarea id="message" name="message" class="form-control" placeholder="Votre Message"
-                        rows="3"></textarea>
-                    <p class="comments"></p>
-                </div>
- 
-                <div class="col-md-6">
-                    <p><strong>* Ces informations sont requises.</strong></p>
-                </div>
+                    <div class="col-md-12">
+                        <label for="message">Message *</label>
+                        <textarea id="message" name="message" class="form-control" placeholder="Votre Message"
+                            rows="3"></textarea>
+                        <p class="comments"></p>
+                    </div>
 
-                <div class="col-md-6">
-                <div class="custom-control custom-checkbox">
-                    <input type="checkbox" class="custom-control-input" id="defaultUnchecked">
-                    <label class="custom-control-label" for="defaultUnchecked">Je ne suis pas un
-                        robot</label>
+                    <div class="col-md-6">
+                        <p><strong>* Ces informations sont requises.</strong></p>
+                    </div>
+
+                    <div class="col-md-6">
+                        <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="defaultUnchecked">
+                            <label class="custom-control-label" for="defaultUnchecked">Je ne suis pas un
+                                robot</label>
+                        </div>
+                    </div>
                 </div>
-                </div>
-             
-            </div>
+            </form>
         </div>
-        <!-- Bouton -->
-        <button class="contactBouton" type="button">Envoyer</button>
+    </div>
 
-        </form>
-        </div>
-        </div>
-        </div>
-        </div>
+    <!-- Bouton -->
+    <button class="contactBouton" type="button">Envoyer</button>
+
     </section>
 
     <!--pied de page-->
 
     <footer>
         <div class="container">
-          <div class="row">
-            <div class="col-md-4"></div>
-            <div class="col-md-4">
-              <div class="copyright">
-                Copyright &copy; 2020. Tous droits reservés /<a href="mentions_legales.html">Mentions Légales</a>
-              </div>
+            <div class="row">
+                <div class="col-md-4"></div>
+                <div class="col-md-4">
+                    <div class="copyright">
+                        Copyright &copy; 2020. Tous droits reservés /<a href="mentions_legales.html">Mentions
+                            Légales</a>
+                    </div>
+                </div>
+                <div class="col-md-4"></div>
             </div>
-            <div class="col-md-4"></div>
-          </div>
         </div>
-      </footer>
+    </footer>
 
     <!-- MODAL MAP -->
-
 
     <div class="modal fade" id="map" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
         aria-hidden="true">
@@ -190,10 +190,7 @@
             </div>
         </div>
     </div>
-    </div>
-
-
-
+    
     <!-- BOOTSTRAP -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
         integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
